@@ -1,0 +1,53 @@
+- social media platform	
+- OSINT & WEBINT
+-threat intelligence reports (including threat landscape and asset-based intelligence).
+-----------------------
+D3fend- knowledge graph 	 vocabulary used to describe defensive cyber security function and techniques
+detect,deny and disrupt
+
+MITRE CRIT - Collaborative Reasearch Into ThreatsS
+
+You are researching the techniques used by APT41 and want the most detailed information.  Which section of the group’s page on the ATT&CK website should I look to for original source materials?
+Meta information
+Techniques Used
+Source Intelligence
+Resources
+
+One of the best ways to truly test and build upon a threat informed defense is to:
+Provide red team reports to the SOC
+Subscribe to a commercial threat feed
+Enable collaboration between red and blue teams through a purple team.
+Utilze STIX/TAXII
+---------------------------------
+CTID - Center Threat Informed Defense
+  - CTI
+  - defensive engagement of the threat
+  - sharing and collaboration
+-------------------------------------
+
+AI model training & deployment.
+TensorFlow, Scikit learn and PyTorch. 
+You will be responsible for designing, developing, and deploying AI applications leveraging both open-source models (Llama, Mistral, DeepSeek etc) 
+and proprietary services (OpenAI, Anthropic)
+Lead the AI integration efforts within Astra Security, shaping the company’s AI roadmap
+Develop and Optimize Retrieval-Augmented Generation (RAG) Pipelines with multi-tenant capabilities
+Build and enhance RAG applications using LangChain, LangGraph, and vector databases (e.g. Milvus, Pinecone, pgvector).
+Implement efficient document chunking, retrieval, and ranking strategies.
+Optimize LLM interactions using embeddings, prompt engineering, and memory mechanisms.
+Work with Graph databases (Neo4j or similar) for structuring and querying knowledge bases
+Design multi-agent workflows using orchestration platforms like LangGraph or other emerging agent frameworks for AI-driven decision-making and reasoning.
+Integrate vector search, APIs and external knowledge sources into agent workflows.
+Exposure to end-to-end AI ecosystem like Huggingface to accelerate AI development (while initial work won’t involve extensive model training, the candidate should be ready for fine-tuning, domain adaptation, and LLM deployment when needed)
+Design and develop AI applications using LLMs (Llama, Mistral, OpenAI, Anthropic, etc.)
+Build APIs and microservices to integrate AI models into backend architectures..
+Collaborate with the product and engineering teams to integrate AI into Astra Security’s core offerings
+Stay up to date with the latest advancements in AI and security, ensuring Astra remains at the cutting edge
+-----------
+fine tuning models
+LangChain and LangGraph
+agentic AI systems in production (e.g., AWS, GCP, Azure) using containerization (Docker, Kubernetes).
+Git, Docker, RESTful APIs, FAST APIS observability platform
+AI applications using ComfyUI and other GUI-based tools.
+ deployment, API integration, and UI development.
+Familiarity with AI Agents like Autogen, CrewAI, and AssistantAPIs.
+MLOps, model deployment, and monitoring
