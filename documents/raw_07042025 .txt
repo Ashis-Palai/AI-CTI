@@ -51,3 +51,58 @@ AI applications using ComfyUI and other GUI-based tools.
  deployment, API integration, and UI development.
 Familiarity with AI Agents like Autogen, CrewAI, and AssistantAPIs.
 MLOps, model deployment, and monitoring
+------------------------------------------
+1. Model Fine-Tuning (Phase 8)
+📌 Purpose:
+To adapt a general-purpose LLM (like Llama/Mistral) to better understand and generate outputs specific to cybersecurity threat intelligence (CTI) tasks.
+📥 Inputs:
+Cleaned and labeled threat intel data from earlier phases (e.g., labeled TTPs, actor behaviors, threat reports).
+Pretrained open-source LLMs (e.g., Mistral, Llama 3, TinyLlama).
+📤 Outputs:
+A smaller, fine-tuned model that performs better on CTI-specific NLP tasks like summarization, correlation, IOC detection, etc.
+Optionally quantized for fast inference (GGUF/Ollama format).
+💡 Value to Project:
+Improves accuracy and relevance of threat extractions and reasoning by tailoring the model to our domain.
+Reduces dependency on costly APIs like OpenAI/Anthropic.
+Enables local/private use in sensitive org environments.
+🔄 How it ties back:
+Earlier steps (data ingestion, preprocessing) feed into this, and the fine-tuned model becomes a core component used in RAG, agents, and chat interface.
+✅ 2. Backend Deployment (Phase 9)
+📌 Purpose:
+To expose AI models, agent workflows, and RAG search results through secure, scalable APIs so they can be used in the UI, dashboards, or by external systems.
+📥 Inputs:
+Trained or fine-tuned models
+FastAPI microservices
+Containerized apps using Docker
+Business logic from multi-agent systems
+📤 Outputs:
+REST APIs (e.g., /analyze, /extract_ttp, /search_actor, etc.)
+Deployed infrastructure on cloud or local servers (via Docker, Kubernetes)
+💡 Value to Project:
+Makes the system accessible, modular, and production-ready
+Enables integration with external CTI platforms, internal SIEMs, or SOC dashboards
+Ensures fault-tolerant, scalable, and secure access to intelligence generation
+🔄 How it ties back:
+All the AI/ML logic is "served" here — without this, our models and agents are not usable by analysts or apps.
+✅ 3. MLOps & Monitoring (Phase 10)
+📌 Purpose:
+To manage, automate, and monitor the entire ML lifecycle — from model training to deployment to performance tracking.
+📥 Inputs:
+Model training jobs and outputs
+Inference logs and user interaction data
+Infrastructure usage metrics
+📤 Outputs:
+CI/CD pipelines (auto-deploy new models, API updates)
+Dashboards (Grafana, Prometheus) for real-time monitoring
+Performance reports, usage stats, drift detection alerts
+💡 Value to Project:
+Ensures reliability, traceability, and continuous improvement
+Allows us to detect issues like: model degradation, long response times, or broken APIs
+Supports iterative updates and model re-training
+🔄 How it ties back:
+Without this, long-term maintenance of the system is painful. With MLOps, we ensure the system stays healthy, current, and continuously improves.
+🔁 How These Phases Strengthen the Whole System
+Phase	Improves	How
+Model Fine-Tuning	Accuracy	Tailors LLMs to CTI tasks, improves threat recognition
+Backend Deployment	Usability	Exposes models and agents to users and external systems
+MLOps & Monitoring	Maintainability & Scaling	Automates lifecycle, tracks usage, and enables CI/CD
