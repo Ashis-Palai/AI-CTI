@@ -14,7 +14,7 @@ This project aims to integrate modern AI/ML capabilities with security intellige
 - Production-ready deployment on cloud environments (Colab, AWS, GCP)
 
 🔗 **Project Plan**  
-For a detailed breakdown of each step, architecture, tools used, and time estimates, refer to the [project_plans.md](project_plans.md) file in this repo.
+For a detailed breakdown of each step, architecture, tools used, and time estimates, refer to the [project_plans](documents/project_plans.md) file in this repo.
 
 ---
 
