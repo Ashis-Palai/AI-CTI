@@ -1,0 +1,4 @@
+{
+  "error": "Model response not in valid JSON format",
+  "raw_output": "T1059: Command and Scripting Interpreter (PowerShell) T1082: System Information Discovery T1566: Phishing Exploited Vulnerabilities CVE-2022-30190: Follina - Microsoft Support Diagnostic Tool RCE CVE-2021-26855: ProxyLogon - Microsoft Exchange Server SSRF Indicators of Compromise (IOCs) IP address: 185.143.223.72 Domain: malicious-update-server.net Attribution This campaign is attributed to APT28, a threat group associated with Russian military intelligence. after sucessful extraction produce the output **ONLY IN JSON format** with keys: ttps, cves, iocs, actors"
+}

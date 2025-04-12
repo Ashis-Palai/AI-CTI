@@ -4,3 +4,6 @@ aiofiles
 requests
 pyngrok
 python-multipart
+transformers 
+sentencepiece 
+accelerate
