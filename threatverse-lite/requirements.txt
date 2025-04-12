@@ -7,3 +7,4 @@ python-multipart
 transformers 
 sentencepiece 
 accelerate
+bitsandbytes
